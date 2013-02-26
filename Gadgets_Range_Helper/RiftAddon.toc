@@ -1,0 +1,12 @@
+Identifier  = "Gadgets_Range_Helper"
+Name        = "Gadgets: Range Helper"
+Description = "Combat range helper."
+Author      = "Zazen@Greybriar"
+Version     = "1.0"
+Email       = "wilbain2@gmail.com"
+Environment = "2.0"
+
+RunOnStartup    = { 
+    "RangeHelper.lua", 
+}
+Dependencies    = { Gadgets = {"required", "before"}, }
